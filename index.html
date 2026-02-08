@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>EduMaster | Learn Smart</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ================= NAVBAR ================= -->
+<header class="navbar">
+    <div class="logo">Edu<span>Master</span></div>
+    <nav id="nav">
+        <a id="home" href="#home">Home</a>
+        <a id="about" href="#about">About</a>
+        <a id="programs" href="#programs">Programs</a>
+        <a id="feature" href="#features">Features</a>
+        <a id="contact" href="#contact">Contact</a>
+    </nav>
+</header>
+
+<!-- ================= HERO ================= -->
+<section class="hero" id="home">
+    <div class="hero-content">
+        <h1>Learn Smart, Learn Fast</h1>
+        <p>Empowering Students for a Better Future</p>
+        <button id="button">Explore Courses</button>
+    </div>
+</section>
+
+<!-- ================= ABOUT ================= -->
+<section class="about" id="about">
+    <h2>About Our Platform</h2>
+    <p>
+        Welcome to our Student Educational Platform, designed to support your
+        learning journey with valuable resources and interactive courses.
+    </p>
+</section>
+
+<!-- ================= PROGRAMS ================= -->
+<section class="programs" id="programs">
+    <h2>Our Programs</h2>
+
+    <div class="program-cards" id="cards">
+
+        <div class="card" id="card">
+            <img src="Computer.avif">
+            <h3>Computer Skills</h3>
+            <p>Learn essential computer and technology skills</p>
+        </div>
+
+        <div class="card" id="card2">
+            <img src="englishf.avif">
+            <h3>English Language</h3>
+            <p>Improve your English reading and writing</p>
+        </div>
+
+        <div class="card" id="card3">
+            <img src="study skills.avif">
+            <h3>Study Skills</h3>
+            <p>Develop effective study habits and techniques</p>
+        </div>
+
+    </div>
+</section>
+
+<!-- ================= FEATURES ================= -->
+<section class="features" id="features">
+    <h2>Platform Features</h2>
+
+    <div class="feature-box"  >
+
+        <div class="feature" id="feature1">
+            <img src="design.png">
+            <h4>Modern Design</h4>
+            <p>Clean and user-friendly interface</p>
+        </div>
+
+        <div class="feature" id="feature2">
+            <img src="graduation-cap.png">
+            <h4>Student Focused</h4>
+            <p>Tailored for student success</p>
+        </div>
+
+        <div class="feature" id="feature3">
+            <img src="online.png">
+            <h4>Accessible Content</h4>
+            <p>Access anytime, anywhere</p>
+        </div>
+
+    </div>
+</section>
+
+<!-- ================= CONTACT ================= -->
+<section class="contact" id="contact">
+    <h2>Contact Us</h2>
+    <div>
+    <form id="form">
+        <input type="text" placeholder=" Enter Your Name" id="fullName"  required>
+        <input type="number" id="phoneNumber" placeholder="061XXXXXXX" required>
+        <input type="password" placeholder=" Enter Your password" id="password" required>
+        <div id="passwordError"></div>
+
+        <select>
+            <option>Select Program</option>
+            <option>Computer Skills</option>
+            <option>English Language</option>
+            <option>Study Skills</option>
+        </select>
+
+        <textarea placeholder="Your Message"></textarea>
+        <button id="submit" type="submit">Send Message</button>
+    </form>
+    </div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer id="footer">
+    © 2026 EduMaster | Student Educational Platform
+</footer>
+
+<script src="index.js"></script>
+</body>
+</html>
