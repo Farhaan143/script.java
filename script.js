@@ -58,6 +58,7 @@ nav.addEventListener("mouseout",()=>{
   //  input validation and Events 
   let fullname= document.getElementById("fullName")
   let phonenumber = document.getElementById("phoneNumber")
+  let nambererror = document.getElementById("erornumber"
   let password = document.getElementById("password")
   let passworError = document.getElementById("passwordError")
   let form = document.getElementById("form")
@@ -95,9 +96,11 @@ nav.addEventListener("mouseout",()=>{
     if (phone >= 610000000 && phone <= 619999999){
       phonenumber.style.border = "3px solid green"
       isvalidtePhonenumber = true;
+      nambererror.textContent=""
     } else {
       phonenumber.style.border = "3px solid red"
       isvalidtePhonenumber = false;
+      nambererror.textContent="Phone number must be Hormuud"
     }
   })
   //  password validation
@@ -146,4 +149,5 @@ nav.addEventListener("mouseout",()=>{
  
 
   
+
   
